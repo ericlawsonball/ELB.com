@@ -1,0 +1,24 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+		
+	<HEAD>
+	<link rel="stylesheet" type="text/css" href="ETEstyles.css" />
+	<title>EricLawsonBall.com</title>
+	</HEAD>
+
+	<BODY>
+		<div class="centered">
+			<p class="center">
+				<h1><a href="/">EricLawsonBall.com</a></h1>
+
+				<h2>
+					<a href="about.php" <?php if (basename($_SERVER['PHP_SELF'])=="about.php") echo 'id="current"'; ?>>About</a>.
+					<a href="contact.php" <?php if (basename($_SERVER['PHP_SELF'])=="contact.php") echo 'id="current"'; ?>>Contact</a>.
+					<a href="/blog/">Blog</a>.
+					<a href="resume/Eric_Ball-Resume.pdf" target="new">Resume</a>.
+				</h2>
+				<h3>
+
+			
